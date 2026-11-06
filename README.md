@@ -1,5 +1,7 @@
 English | [繁體中文](README.zh-TW.md)
 
+> 📖 **Step-by-step tutorial (Traditional Chinese):** https://shao-en.com/blog/activity-tracker-guide.html — not sure how to set it up? Hand the article to Claude or ChatGPT and let it walk you through.
+
 # activity-tracker
 
 A small background tool for Windows that logs when you step away from the computer and, for long absences, asks the Gemini API to guess why (sleeping, going out, a reboot...). Everything is written to a local CSV file.

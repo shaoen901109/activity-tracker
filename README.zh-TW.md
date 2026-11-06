@@ -1,5 +1,7 @@
 [English](README.md) | 繁體中文
 
+> 📖 **圖文教學：** https://shao-en.com/blog/activity-tracker-guide.html ——如果你不知道該如何操作，請把這篇文章交給你的 Claude 或 ChatGPT。
+
 # activity-tracker（Windows 使用時間紀錄）
 
 一個在 Windows 背景執行的小工具：記錄你離開電腦的時間，離席很久時，請 Gemini API 推測你去做了什麼（睡覺、出門、系統重啟……）。所有資料都寫進本機的 CSV 檔。
