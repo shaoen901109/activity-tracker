@@ -67,6 +67,23 @@ schtasks /delete /tn "UserActivityTracker" /f
 
 Then end any running `pythonw.exe` process for the tracker (Task Manager) and delete the folder. Delete `log/` if you no longer want the records.
 
+## Credits
+
+| Purpose | Component | License |
+|---|---|---|
+| AI summaries of screen activity | Google Gemini API via [google-genai](https://github.com/googleapis/python-genai) | SDK: Apache-2.0; API: Google terms |
+| Windows API access | [pywin32](https://github.com/mhammond/pywin32) | PSF |
+| Reading `.env` settings | [python-dotenv](https://github.com/theskumar/python-dotenv) | BSD-3-Clause |
+| Scheduling | Windows Task Scheduler (`schtasks`) | part of Windows |
+
+Developed with the help of [Claude Code](https://claude.com/claude-code) (Anthropic).
+
+## Author
+
+- Website: https://shaoenstudio.com
+- Email: shaoenstudio@gmail.com
+- GitHub: [@shaoen901109](https://github.com/shaoen901109)
+
 ## License
 
 MIT, see [LICENSE](LICENSE).

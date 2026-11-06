@@ -65,6 +65,23 @@ schtasks /delete /tn "UserActivityTracker" /f
 
 再到工作管理員結束正在執行的追蹤程式 `pythonw.exe`，然後刪除資料夾。不想保留紀錄就一併刪除 `log/`。
 
+## 技術來源與致謝
+
+| 用途 | 元件 | 授權 |
+|---|---|---|
+| 以 AI 摘要畫面活動 | Google Gemini API via [google-genai](https://github.com/googleapis/python-genai) | SDK：Apache-2.0；API：依 Google 條款 |
+| Windows API 呼叫 | [pywin32](https://github.com/mhammond/pywin32) | PSF |
+| 讀取 `.env` 設定 | [python-dotenv](https://github.com/theskumar/python-dotenv) | BSD-3-Clause |
+| 排程 | Windows Task Scheduler (`schtasks`) | Windows 內建 |
+
+開發過程使用 [Claude Code](https://claude.com/claude-code)（Anthropic）協助。
+
+## 作者
+
+- 網站：https://shaoenstudio.com
+- 聯絡信箱：shaoenstudio@gmail.com
+- GitHub：[@shaoen901109](https://github.com/shaoen901109)
+
 ## 授權
 
 MIT，見 [LICENSE](LICENSE)。
